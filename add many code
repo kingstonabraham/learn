@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    <form>
+        <label>email</label> <br><input type="email" placeholder="email id" required>
+       <br><hr><label>password</label> <br><input type="password" placeholder=" password" required>
+       <br><hr><label>username</label><br><input type="password" placeholder=" user name"> 
+    <hr><br><label>gender</label>
+       <br><input type="radio" name="gender"><label>male</label>
+       <input type="radio" name="gender"><label>female</label>
+       <hr><br>
+       <label> I accept the rules </label > <input type="checkbox" >
+<br>
+<textarea>message here</textarea>
+<label>upload photo</label><input type="file"><labelbr>
+<label>select the teacher</label>
+<br>
+<select>
+    <option>english</option>
+    <option>comouter</option>
+    <option>humanb resourse</option>
+</select>
+       <input type="submit" value="submit">
+    </form>
+</body>
+</html>
