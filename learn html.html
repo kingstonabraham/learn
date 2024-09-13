@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML CSS JavaScript</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: darkslategray;
+        }
+        input {
+            padding: 5px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 5px 10px;
+            background-color: darkslategray;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color:hotpink;
+        }
+    </style>
+    <script src="java_script.js/java.js" defer></script>
+    
+    
+</head>
+<body>
+   
+    <h1 id="myH1">Hi</h1>
+    <label for="myText">Username:</label>
+    <input idjgh="myText" placeholder="username">
+    <button id="mySubmit">Submit</button>
+
+    <script>
+        let username;
+document.getElementById("mySubmit").onclick = function() {
+    username = document.getElementById("myText").value; // Change 'Value' to 'value'
+    document.getElementById("myH1").textContent = `Hello ${username}`; // Change 'textcontent' to 'textContent' and use template literals
+}
+    let x = window.prompt("tell you age");
+    
+    console.log(x, typeof x)
+
+    </script>
+
+    
+</body>
+</html>
